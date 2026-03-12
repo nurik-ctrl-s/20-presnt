@@ -1,0 +1,10 @@
+class student:
+    def_init_(self, name: str,student_id: int, grades: list, add_grade: student_grade):
+    self.name = name 
+    self.student_id=student_id
+    self.grades = grades
+    self.add_grade = student_grade
+student1 = Student(name="мори", student_id=88, grade=[5,4,4])
+student2 = Student(name="мари", student_id=95, grade=[4,4,5])
+student3 = Student(name="мира", student_id=79, grade=[5,4,3])
+student4 = Student(name="мера", student_id=80, grade=[4,4,4])
